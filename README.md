@@ -43,7 +43,7 @@ This command will compile the TypeScript files in src/ into JavaScript files in 
 When you’re ready to build the project for production, simply run:
 
 ```bash
- npm run watch
+ npm start
 ```
 
 ### This command will:
@@ -52,14 +52,6 @@ When you’re ready to build the project for production, simply run:
    Restart the server automatically whenever changes are detected in the compiled `dist/` files.
 
 2. **Restart the server** automatically whenever changes are detected in the compiled dist/ files.
-
-## Step 4: Run Compiled Code
-
-```bash
- npm run dev
-```
-
-This will execute the `index.js` file in the `dist/` directory, which is the compiled entry point.
 
 ## 📝 Notes
 
